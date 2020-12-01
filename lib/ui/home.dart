@@ -1,3 +1,4 @@
+import 'package:app_widget/ui/order-button.dart';
 import 'package:app_widget/ui/pizza-image-dancing.dart';
 import 'package:flutter/material.dart';
 
@@ -59,7 +60,8 @@ class Home extends StatelessWidget {
                     ))
                   ],
                 ),
-                PizzaImageDancingWidget()
+                PizzaImageDancingWidget(),
+                OrderButton(),
               ],
             )));
   }
